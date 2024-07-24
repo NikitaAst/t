@@ -1,0 +1,44 @@
+__pycache__
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+coverage_html_report
+results.xml
+.mypy_cache
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MacOS
+local_config.yml
+.DS_Store
+
+# IDEA
+*.iml
+.idea/
+
+.buildinfo
+
+.env
+*.env
+secrets/
+*.sql
+artifacts/*.xml
